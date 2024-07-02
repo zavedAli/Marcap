@@ -1,0 +1,56 @@
+body {
+}
+
+.watchlist-container {
+  text-align: center;
+  width: 400px;
+  margin: 20px auto; /* Center horizontally */
+}
+
+.watchlist-title {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+  width: 200px; /* Set a fixed width for input */
+}
+
+.add-button {
+  padding: 8px 16px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-button:hover {
+  background-color: #0056b3;
+}
+
+.watchlist {
+  list-style-type: none;
+  padding: 0;
+}
+
+.watchlist-item {
+  margin-bottom: 8px;
+  padding: 8px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+}
