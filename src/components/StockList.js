@@ -9,7 +9,7 @@ const StockList = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const symbols = ["AAPL", "GOOGL", "AMZN", "AA", "AAA"]; // Example symbols
+        const symbols = ["AAPL", "GOOGL", "SBI"]; // Example symbols
         const data = await Promise.all(
           symbols.map((symbol) => fetchStockData(symbol))
         );
@@ -36,10 +36,12 @@ const StockList = () => {
         }
 
         return (
-          <div key={index} className="stock-card">
-            <h2>{stock.T}</h2>
-            <p>Price: {stock.h}</p>
-          </div>
+          <>
+            <div key={index} className="stock-card">
+              <h2>{stock.T}</h2>
+              <p>Price: {stock.h}</p>
+            </div>
+          </>
         );
       })}
     </div>

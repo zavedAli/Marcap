@@ -1,0 +1,38 @@
+.stock-details {
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #f9f9f9;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-bottom: 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.symbol {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+.parameters {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.parameter {
+  display: flex;
+  align-items: center;
+  margin-bottom: 6px;
+  justify-content: center;
+}
+
+.icon {
+  margin-right: 8px;
+}
+
+.label {
+  font-weight: bold;
+  margin-right: 4px;
+}

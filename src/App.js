@@ -8,7 +8,7 @@ import News from "./pages/News";
 import MarketCap from "./pages/markCap";
 import AboutUs from "./pages/aboutUs";
 import "./App.css"; // Optional: Import global styles
-import SearchBar from "./components/SearchBar";
+import StockSearchPage from "./components/StockSearchPage";
 import StockList from "./components/StockList";
 import NewsFeed from "./components/NewsFeed";
 import Watchlist from "./components/WatchList";
@@ -26,10 +26,11 @@ function App() {
             <Route path="/about-us" component={AboutUs} />
           </Routes>
 
-          <SearchBar />
+          <StockSearchPage />
+          <h3>Current Watchlist</h3>
           <StockList />
           <Watchlist />
-          <NewsFeed symbol="AMZN" />
+          <NewsFeed symbol="SBI" />
         </div>
       </div>
     </Router>

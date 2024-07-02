@@ -1,71 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap");
-
-.news-feed {
-  padding: 20px;
-  background-color: #f9f9f9;
-  border-radius: 8px;
-  margin-top: 20px;
-  font-family: "Lora", serif; /* Apply the font to the entire news feed */
-}
-
-.news-slide {
-  background-color: white;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  position: relative;
-}
-
-.news-slide h3 {
-  font-size: 1.2em;
-  margin-bottom: 10px;
-  font-family: "Lora", serif; /* Apply the font to the headers */
-}
-
 .news-slide p {
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 30px;
+  padding-right: 30px;
   font-size: 1em;
   margin-bottom: 10px;
   font-family: "Lora", serif; /* Apply the font to the paragraphs */
-}
-
-.news-slide a.read-more {
-  color: #007bff;
-  text-decoration: none;
-  display: inline-flex;
-  align-items: center;
-  font-weight: bold;
-}
-
-.news-slide a.read-more:hover {
-  text-decoration: underline;
-}
-
-.news-slide a.read-more svg {
-  margin-left: 5px;
-}
-
-.arrow {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  background-color: rgba(0, 0, 0, 0.5);
-  color: white;
-  cursor: pointer;
-  z-index: 2;
-}
-
-.arrow.prev {
-  left: 10px;
-}
-
-.arrow.next {
-  right: 10px;
 }
